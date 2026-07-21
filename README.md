@@ -1,5 +1,7 @@
 # MCF and Theoria
 
+![MCF](assets/thumbnail-mcf.webp)
+
 Portable, AI-assisted courses that ordinary people can create, compile, share, and study—even with limited internet or older devices.
 
 ## Live demo
@@ -76,8 +78,6 @@ No account or credentials are required.
 
 ### mcf-npm
 
-Typical workflow:
-
 ```bash
 npm install
 npm run mcf -- validate ../mcf-samples/showcase
@@ -85,8 +85,6 @@ npm run mcf -- compile ../mcf-samples/showcase --output ../courses
 ```
 
 ### mcf-python
-
-Typical workflow:
 
 ```bash
 python3 -m venv .venv
@@ -109,18 +107,6 @@ python -m mcf_compiler compile ../mcf-samples/showcase --output ../courses
 - added standalone HTML compilation;
 - built and deployed Theoria as a browser-only PWA; and
 - created the demo and submission materials.
-
-## Screenshots
-
-See `assets/screenshots/desktop/` and `assets/screenshots/mobile/`.
-
-## Pending final submission metadata
-
-Add these before final Devpost submission if not already completed:
-
-- Codex `/feedback` session ID(s)
-- final Devpost thumbnail selection
-- any additional attribution notes if needed
 
 ## License
 
